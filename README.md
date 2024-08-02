@@ -1,19 +1,18 @@
-# ParticleNet: Dense Neural Network for Particle Classification
+# Dense Dots
 
-ParticleNet is a PyTorch-based implementation of a dense neural network designed for particle classification in high-energy physics experiments. This project aims to distinguish signal events from background events using particle 4-momentum data.
+Dense Dots is a PyTorch-based implementation of a dense neural network designed for particle classification in high-energy physics experiments. This project aims to check the performance of Lorentz invariant inputs for distinguishing signal events from background events using particle 4-momentum data.
 
 ## Features
 
 - Custom dataset loader for HDF5 files containing particle data
 - Dense neural network architecture with configurable layers
 - Training loop with validation and best model saving
-- Comprehensive evaluation metrics including accuracy, AUC, and ROC curve
+- Evaluation metrics including accuracy, AUC, and ROC curve
 - Background rejection vs. signal efficiency plotting
-- Detailed logging of training progress and results
+- Logging of training progress and results
 
 ## Requirements
 
-- Python 3.7+
 - PyTorch
 - NumPy
 - scikit-learn
@@ -24,8 +23,8 @@ ParticleNet is a PyTorch-based implementation of a dense neural network designed
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/ParticleNet.git
-   cd ParticleNet
+   git clone https://github.com/PradyunHebbar/dense_dots.git
+   cd dense_dots
    ```
 
 2. Install the required packages:
@@ -61,12 +60,7 @@ You can modify the following in `run.py`:
 - Training and evaluation process in the `train_model` and `main` functions
 
 ## Contributing
-
-Contributions to ParticleNet are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Pradyun Hebbar pradyun.hebbar@gmail.com
 
 ## Acknowledgments
 
