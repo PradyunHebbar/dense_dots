@@ -4,13 +4,13 @@ Dense Dots is a PyTorch-based implementation of a dense neural network designed 
 
 ## Features
 
-- Dataset loader for HDF5 files containing particle 4-momentum data
+- Dataset loader for the Top Quark Tagging Reference Dataset:
+Kasieczka, G., Plehn, T., Thompson, J., & Russel, M. (2019). Top Quark Tagging Reference Dataset (v0 (2018_03_27)) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.2603256
 - Dense neural network architecture with configurable layers
 - Training loop with validation and best model saving
 - Evaluation metrics including accuracy, AUC, and ROC curve
 - Background rejection vs. signal efficiency plotting
 - Logging of training progress and results
-- Modular code structure for easy maintenance and modification
 - Command-line argument parsing for hyperparameter tuning
 
 ## Requirements
